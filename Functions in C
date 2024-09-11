@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int main(){
+
+int V1;
+int V2;
+int V3;
+int V4;
+
+scanf("%d\n",&V1);
+scanf("%d\n",&V2);
+scanf("%d\n",&V3);
+scanf("%d",&V4);
+
+if (V1>V2 && V1>V3 && V1>V4)
+{
+    printf("%d",V1);
+}
+else if (V2>V1 && V2>V3 && V2>V4)
+{
+    printf("%d",V2);
+}
+else if (V3>V1 && V3>V2 && V3>V4)
+{
+    printf("%d",V3);
+}
+else if (V4>V1 && V4>V2 && V4>V3)
+{
+    printf("%d",V4);
+}
+
+
+
+   return 0 ;
+
+}
