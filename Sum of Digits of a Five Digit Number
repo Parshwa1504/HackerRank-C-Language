@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+int main(){
+
+    int n ;
+    int Reminder[5];
+    int Sum = 0;
+    
+    scanf("%d",&n);
+
+    for (int i = 0; i < 5; i++)
+    {
+        Reminder[i] =   n%10;
+        n = (n-Reminder[i])/10;
+    }
+    
+    for (int i = 0; i < 5; i++)
+    {
+        Sum = Sum + Reminder[i];
+    }
+    
+    
+  printf("%d",Sum);
+
+
+    return 0 ;
+}
