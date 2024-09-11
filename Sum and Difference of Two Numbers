@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+
+int V1;
+int V2;
+float V3;
+float V4;
+
+scanf("%d ",&V1);
+scanf("%d\n",&V2);
+scanf("%f ",&V3);
+scanf("%f",&V4);
+
+printf("%d %d\n",V1+V2,V1-V2);
+printf("%.1f %.1f",V3+V4,V3-V4);
+
+    return 0 ;
+}
